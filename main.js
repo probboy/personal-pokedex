@@ -38,18 +38,58 @@ class POKEMON {
             this.attack = result.data.stats[4].base_stat;
             this.defense = result.data.stats[1].base_stat;
             this.abilities = [];
-            for (i = 0; i < result.data.abilities.length; i++) {
+            this.moves = [];
+            for (var i = 0; i < result.data.abilities.length; i++) {
                 this.abilities.push(result.data.abilities[i].ability.name);
             }
-            this.moves = [];
-            for (var i = 0; i < result.data.moves.length; i++) {
-                this.moves.push([result.data.moves[i].move.name, null, null, null]);
+            for (var j = 0; j < result.data.moves.length; j++) {
+                const PokemonChallenge = resolve(result.data.moves[j].move.url);
+                PokemonChallenge.then((res) => {
+                    this.moves.push([res.data.name, res.data.priority, res.data.power, res.data.accuracy]);
+                });
             }
         });
     }
 }
 
+class CARD {
+    constructor(imgSrc, imgAlt = 'Pokecard', cardTitle, cardText, buttomHref, buttomAnchor) {
+        this.imgSrc = imgSrc;
+        this.imgAlt = imgAlt;
+        this.cardTitle = cardTitle;
+        this.cardText = cardText;
+        this.buttomHref = buttomHref;
+        this.buttomAnchor = buttomAnchor;
+    }
 
+    appendCard(myContainer) {
+        var myPic = document.createElement('img');
+        myPic.className = 'card-img-top';
+        myPic.src = this.imgSrc;
+        myPic.alt = this.imgAlt;
+        var myPicFrame = document.createElement('div');
+        myPicFrame.className = 'card';
+        myContainer.appendChild(myPicFrame); // Attach the card to its container
+        myPicFrame.appendChild(myPic);
+        var myPicCardBody = document.createElement('div');
+        myPicCardBody.className = 'card-body';
+        myPicFrame.appendChild(myPicCardBody);
+        var myName = document.createElement('h5');
+        myName.className = 'card-title';
+        myName.innerHTML = this.cardTitle;
+        myPicCardBody.appendChild(myName);
+        var myCardText = document.createElement('p');
+        myCardText.innerHTML = this.cardText;
+        myCardText.className = 'card-text';
+        myPicCardBody.appendChild(myCardText);
+        var myRepoButton = document.createElement('a');
+        myRepoButton.className = 'btn btn-primary';
+        myRepoButton.innerHTML = this.buttomAnchor;
+        myRepoButton.href = this.buttomHref;
+        myPicCardBody.appendChild(myRepoButton);
+    }
+
+}
 
 // project retrieves pokemon information via the pokemon API
 // project retrieves information using javascript ajax calls
@@ -95,102 +135,17 @@ function convertStat(st) {
     return list;
 }
 
-class CARD {
-    constructor(imgSrc, imgAlt = 'Pokecard', cardTitle, cardText, buttomHref, buttomAnchor) {
-        this.imgSrc = imgSrc;
-        this.imgAlt = imgAlt;
-        this.cardTitle = cardTitle;
-        this.cardText = cardText;
-        this.buttomHref = buttomHref;
-        this.buttomAnchor = buttomAnchor;
-    }
 
-    appendCard(myContainer) {
-        var myPic = document.createElement('img');
-        myPic.className = 'card-img-top';
-        myPic.src = this.imgSrc;
-        myPic.alt = this.imgAlt;
-        var myPicFrame = document.createElement('div');
-        myPicFrame.className = 'card';
-        myContainer.appendChild(myPicFrame); // Attach the card to its container
-        myPicFrame.appendChild(myPic);
-        var myPicCardBody = document.createElement('div');
-        myPicCardBody.className = 'card-body';
-        myPicFrame.appendChild(myPicCardBody);
-        var myName = document.createElement('h5');
-        myName.className = 'card-title';
-        myName.innerHTML = this.cardTitle;
-        myPicCardBody.appendChild(myName);
-        var myCardText = document.createElement('p');
-        myCardText.innerHTML = this.cardText;
-        myCardText.className = 'card-text';
-        myPicCardBody.appendChild(myCardText);
-        var myRepoButton = document.createElement('a');
-        myRepoButton.className = 'btn btn-primary';
-        myRepoButton.innerHTML = this.buttomAnchor;
-        myRepoButton.href = this.buttomHref;
-        myPicCardBody.appendChild(myRepoButton);
-    }
 
+function resolve(url) {
+    return axios.get(url);
 }
 
-//for example move: {name: "mega-punch", url: "https://pokeapi.co/api/v2/move/5/"}
-var MOVES = [];
-var priority, power, accuracy;
-// function pokemonPower() {
-//     axios.get("https://pokeapi.co/api/v2/move/5/").then((res) => {
-//         resolve('resolved');
-//         priority = res.data.priority;
-//         power = res.data.power;
-//         accuracy = res.data.accuracy;
-//         console.log(res);
-//         console.log(priority, power, accuracy);
-//     });
-//     console.log(priority, power, accuracy)
-//     // setTimeout(function () { console.log(priority, power, accuracy); }, 3000);
-// }
-// pokemonPower();
 
-// async function resolve() {
-//     return axios.get("https://pokeapi.co/api/v2/move/5/").then((res) => {
-//         resolve('resolved');
-//     });
-
-
-// }
-
-// resolve();
-
-// async function pokePower() {
-//     var priority = await resolve();
-//     var power = await resolve();
-//     var accuracy = await resolve();
-//     console.log("Tai", resolve().then((res)=>{console.log(res.data)}));
-// }
-
-// pokePower();
-
-
-
-// axios.get("https://pokeapi.co/api/v2/move/5/").then((res)
-
-var priority;
-var power;
-var accuracy;
-
-
-asyncCall();
-
-function resolveAfter2Seconds() {
-    return axios.get("https://pokeapi.co/api/v2/move/5/");
-}
-
-async function asyncCall() {
-    console.log('calling');
-    var result = await resolveAfter2Seconds();
-    priority= result.data.priority;
-    power = result.data.power;
-    accuracy = result.data.accuracy;
-    console.log(priority,power,accuracy);
-    return [priority,power,accuracy];
+async function challenge(url) {
+    var result = await resolve(url); //result.data.moves[i].url
+    var priority = result.data.priority;
+    var power = result.data.power;
+    var accuracy = result.data.accuracy;
+    return [priority, power, accuracy];
 }
