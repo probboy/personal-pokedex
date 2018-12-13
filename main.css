@@ -1,7 +1,15 @@
 body .container-fluid {
   background-image: url(http://static.comicvine.com/uploads/original/14/146951/3879604-6282234369-12556.jpg);
+  background-attachment: fixed !important;
+  background-origin: border-box;
+  background-position: center;
+  background-blend-mode: color-burn;
+  background-origin: border-box;
   background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-size: cover;
+  background-clip: border-box; }
+  body .container-fluid .card {
+    opacity: 0.9; }
 body h1 {
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;

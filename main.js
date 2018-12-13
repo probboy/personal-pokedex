@@ -1,3 +1,4 @@
+"use strict";
 // relevant information is presented on at least 3 different pokemons
 class PERSON {
     constructor(name) {
@@ -42,12 +43,13 @@ class POKEMON {
             }
             this.moves = [];
             for (var i = 0; i < result.data.moves.length; i++) {
-                this.moves.push(result.data.moves[i].move.name);
+                this.moves.push([result.data.moves[i].move.name, null, null, null]);
             }
-
         });
     }
 }
+
+
 
 // project retrieves pokemon information via the pokemon API
 // project retrieves information using javascript ajax calls
@@ -63,13 +65,12 @@ const MEW = axios.get("https://pokeapi.co/api/v2/pokemon/mew/");
 
 PIKACHU.then((res) => {
     var pikachuData = res.data.moves;
-    console.log(res);
     var pikachuStats = res.data.stats;
 
     const PIKACHUIMAGES = axios.get('https://www.googleapis.com/customsearch/v1?key=AIzaSyAU9cKEuID8xJEwLd_kRzXK4-tb3Hnaci8&cx=016836377050291397168%3Atqz5ktercmo&q=pikachu%20%20-raichu')
     const pikachuImages = [];
     PIKACHUIMAGES.then((res) => {
-        for (i = 0; i < res.data.items.length; i++) {
+        for (var i = 0; i < res.data.items.length; i++) {
             pikachuImages.push(res.data.items[i].pagemap.cse_image[0].src);
         }
     });
@@ -83,13 +84,12 @@ PIKACHU.then((res) => {
             pikachuCard.appendCard(productFrames[i]);
         }
     });
-    console.log(pikachuStats[0]);
 });
 
 
 function convertStat(st) {
     var list = '';
-    for (i = 0; i < st.length; i++) {
+    for (var i = 0; i < st.length; i++) {
         list += `${st[i].stat.name}: ${st[i].base_stat} <br>`;
     }
     return list;
@@ -132,4 +132,65 @@ class CARD {
         myPicCardBody.appendChild(myRepoButton);
     }
 
+}
+
+//for example move: {name: "mega-punch", url: "https://pokeapi.co/api/v2/move/5/"}
+var MOVES = [];
+var priority, power, accuracy;
+// function pokemonPower() {
+//     axios.get("https://pokeapi.co/api/v2/move/5/").then((res) => {
+//         resolve('resolved');
+//         priority = res.data.priority;
+//         power = res.data.power;
+//         accuracy = res.data.accuracy;
+//         console.log(res);
+//         console.log(priority, power, accuracy);
+//     });
+//     console.log(priority, power, accuracy)
+//     // setTimeout(function () { console.log(priority, power, accuracy); }, 3000);
+// }
+// pokemonPower();
+
+// async function resolve() {
+//     return axios.get("https://pokeapi.co/api/v2/move/5/").then((res) => {
+//         resolve('resolved');
+//     });
+
+
+// }
+
+// resolve();
+
+// async function pokePower() {
+//     var priority = await resolve();
+//     var power = await resolve();
+//     var accuracy = await resolve();
+//     console.log("Tai", resolve().then((res)=>{console.log(res.data)}));
+// }
+
+// pokePower();
+
+
+
+// axios.get("https://pokeapi.co/api/v2/move/5/").then((res)
+
+var priority;
+var power;
+var accuracy;
+
+
+asyncCall();
+
+function resolveAfter2Seconds() {
+    return axios.get("https://pokeapi.co/api/v2/move/5/");
+}
+
+async function asyncCall() {
+    console.log('calling');
+    var result = await resolveAfter2Seconds();
+    priority= result.data.priority;
+    power = result.data.power;
+    accuracy = result.data.accuracy;
+    console.log(priority,power,accuracy);
+    return [priority,power,accuracy];
 }
