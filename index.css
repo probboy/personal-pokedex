@@ -1,0 +1,19 @@
+#classic-wrapper{
+    border: 1em red solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+#classic{
+    border: 1em blue dotted;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+body {
+    background: gray;
+}
