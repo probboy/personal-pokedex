@@ -1,0 +1,1246 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - pikachu -raichu",
+        "totalResults": "73200000",
+        "searchTerms": "pikachu -raichu",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "016836377050291397168:tqz5ktercmo"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - pikachu -raichu",
+        "totalResults": "73200000",
+        "searchTerms": "pikachu -raichu",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "016836377050291397168:tqz5ktercmo"
+      }
+    ]
+  },
+  "context": {
+    "title": "Images"
+  },
+  "searchInformation": {
+    "searchTime": 0.283393,
+    "formattedSearchTime": "0.28",
+    "totalResults": "73200000",
+    "formattedTotalResults": "73,200,000"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "POKÉMON Detective Pikachu - Official Trailer #1 - YouTube",
+      "htmlTitle": "POKÉMON Detective <b>Pikachu</b> - Official Trailer #1 - YouTube",
+      "link": "https://www.youtube.com/watch?v=1roy4o4tqQM",
+      "displayLink": "www.youtube.com",
+      "snippet": "Nov 12, 2018 ... POKÉMON Detective Pikachu - In Theaters May 10, 2019 http://www.\ndetectivepikachumovie.com/ ...",
+      "htmlSnippet": "Nov 12, 2018 <b>...</b> POKÉMON Detective <b>Pikachu</b> - In Theaters May 10, 2019 http://www.<br>\ndetectivepikachumovie.com/&nbsp;...",
+      "cacheId": "XejpCFrY8LEJ",
+      "formattedUrl": "https://www.youtube.com/watch?v=1roy4o4tqQM",
+      "htmlFormattedUrl": "https://www.youtube.com/watch?v=1roy4o4tqQM",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "300",
+            "height": "168",
+            "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT9VeS8OnHGPJmHgFYIFYSK9zeHrvxSzIIiIrtW0DUrfZVAFV6BUV7Wfj7j"
+          }
+        ],
+        "metatags": [
+          {
+            "title": "POKÉMON Detective Pikachu - Official Trailer #1",
+            "theme-color": "#ff0000",
+            "og:site_name": "YouTube",
+            "og:url": "https://www.youtube.com/watch?v=1roy4o4tqQM",
+            "og:title": "POKÉMON Detective Pikachu - Official Trailer #1",
+            "og:image": "https://i.ytimg.com/vi/1roy4o4tqQM/maxresdefault.jpg",
+            "og:description": "POKÉMON Detective Pikachu - In Theaters May 10, 2019 http://www.detectivepikachumovie.com/ https://www.facebook.com/detectivepikachumovie/ https://twitter.co...",
+            "al:ios:app_store_id": "544007664",
+            "al:ios:app_name": "YouTube",
+            "al:ios:url": "vnd.youtube://www.youtube.com/watch?v=1roy4o4tqQM&feature=applinks",
+            "al:android:url": "vnd.youtube://www.youtube.com/watch?v=1roy4o4tqQM&feature=applinks",
+            "al:android:app_name": "YouTube",
+            "al:android:package": "com.google.android.youtube",
+            "al:web:url": "https://www.youtube.com/watch?v=1roy4o4tqQM&feature=applinks",
+            "og:type": "video.other",
+            "og:video:url": "https://www.youtube.com/embed/1roy4o4tqQM",
+            "og:video:secure_url": "https://www.youtube.com/embed/1roy4o4tqQM",
+            "og:video:type": "text/html",
+            "og:video:width": "1280",
+            "og:video:height": "720",
+            "og:video:tag": "POKÉMON Detective Pikachu",
+            "fb:app_id": "87741124305",
+            "twitter:card": "player",
+            "twitter:site": "@youtube",
+            "twitter:url": "https://www.youtube.com/watch?v=1roy4o4tqQM",
+            "twitter:title": "POKÉMON Detective Pikachu - Official Trailer #1",
+            "twitter:description": "POKÉMON Detective Pikachu - In Theaters May 10, 2019 http://www.detectivepikachumovie.com/ https://www.facebook.com/detectivepikachumovie/ https://twitter.co...",
+            "twitter:image": "https://i.ytimg.com/vi/1roy4o4tqQM/maxresdefault.jpg",
+            "twitter:app:name:iphone": "YouTube",
+            "twitter:app:id:iphone": "544007664",
+            "twitter:app:name:ipad": "YouTube"
+          }
+        ],
+        "videoobject": [
+          {
+            "url": "https://www.youtube.com/watch?v=1roy4o4tqQM",
+            "name": "POKÉMON Detective Pikachu - Official Trailer #1",
+            "description": "POKÉMON Detective Pikachu - In Theaters May 10, 2019 http://www.detectivepikachumovie.com/ https://www.facebook.com/detectivepikachumovie/ https://twitter.co...",
+            "paid": "False",
+            "channelid": "UCjmJDM5pRKbUlVIzDYYWb6g",
+            "videoid": "1roy4o4tqQM",
+            "duration": "PT2M22S",
+            "unlisted": "False",
+            "thumbnailurl": "https://i.ytimg.com/vi/1roy4o4tqQM/maxresdefault.jpg",
+            "embedurl": "https://www.youtube.com/embed/1roy4o4tqQM",
+            "playertype": "HTML5 Flash",
+            "width": "1280",
+            "height": "720",
+            "isfamilyfriendly": "True",
+            "regionsallowed": "AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BV,BW,BY,BZ,CA,CC,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CX,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,EH...",
+            "interactioncount": "52334368",
+            "datepublished": "2018-11-12",
+            "genre": "Entertainment"
+          }
+        ],
+        "imageobject": [
+          {
+            "url": "https://i.ytimg.com/vi/1roy4o4tqQM/maxresdefault.jpg",
+            "width": "1280",
+            "height": "720"
+          }
+        ],
+        "person": [
+          {
+            "url": "http://www.youtube.com/user/WarnerBrosPictures"
+          },
+          {
+            "url": "https://plus.google.com/109477502019259060151"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://i.ytimg.com/vi/1roy4o4tqQM/maxresdefault.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Surprised Pikachu | Know Your Meme",
+      "htmlTitle": "Surprised <b>Pikachu</b> | Know Your Meme",
+      "link": "https://knowyourmeme.com/memes/surprised-pikachu",
+      "displayLink": "knowyourmeme.com",
+      "snippet": "Surprised Pikachu refers to a screenshot from the Pokémon anime of the \ncharacter Pikachu with its mouth agape, as though it were surprised at something\n.",
+      "htmlSnippet": "Surprised <b>Pikachu</b> refers to a screenshot from the Pokémon anime of the <br>\ncharacter <b>Pikachu</b> with its mouth agape, as though it were surprised at something<br>\n.",
+      "cacheId": "piImvZWPel4J",
+      "formattedUrl": "https://knowyourmeme.com/memes/surprised-pikachu",
+      "htmlFormattedUrl": "https://knowyourmeme.com/memes/surprised-<b>pikachu</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "295",
+            "height": "171",
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe_VBxLWbnEIWpYnbau6GqPcGGRxrNN5j9ELOATOfoCyDCQXRN94Ec3zpX"
+          }
+        ],
+        "metatags": [
+          {
+            "og:title": "Surprised Pikachu",
+            "og:site_name": "Know Your Meme",
+            "og:image": "https://i.kym-cdn.com/entries/icons/facebook/000/027/475/Screen_Shot_2018-10-25_at_11.02.15_AM.jpg",
+            "og:image:width": "600",
+            "og:image:height": "315",
+            "og:type": "article",
+            "fb:app_id": "104675392961482",
+            "fb:pages": "88519108736",
+            "article:publisher": "https://www.facebook.com/knowyourmeme",
+            "og:url": "https://knowyourmeme.com/memes/surprised-pikachu",
+            "og:description": "Surprised Pikachu refers to a screenshot from the Pokémon anime of the character Pikachu with its mouth agape, as though it were surprised at something. In the autumn of 2018, the image was used as a reaction image paired with captions where a set-up leads to a predictable outcome that nevertheless leaves one surprised.",
+            "referrer": "unsafe-url",
+            "p:domain_verify": "3fa925d06e2f3c4af076ced1e6e951cf"
+          }
+        ],
+        "article": [
+          {
+            "mainentityofpage": "https://knowyourmeme.com/memes/surprised-pikachu",
+            "headline": "Surprised Pikachu",
+            "thumbnailurl": "https://i.kym-cdn.com/entries/icons/original/000/027/475/Screen_Shot_2018-10-25_at_11.02.15_AM.png",
+            "datecreated": "2018-10-25T11:28:33-04:00",
+            "datepublished": "2018-10-25T11:28:33-04:00",
+            "datemodified": "2018-12-12T22:32:49-05:00",
+            "interactioncount": "UserComments:12"
+          }
+        ],
+        "imageobject": [
+          {
+            "url": "https://s.kym-cdn.com/assets/logo.jpg",
+            "height": "720",
+            "width": "720"
+          },
+          {
+            "url": "https://i.kym-cdn.com/entries/icons/original/000/027/475/Screen_Shot_2018-10-25_at_11.02.15_AM.png",
+            "height": "784",
+            "width": "1354"
+          }
+        ],
+        "person": [
+          {
+            "name": "Adam",
+            "url": "https://knowyourmeme.com/users/adam--31"
+          }
+        ],
+        "organization": [
+          {
+            "name": "Know Your Meme"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://i.kym-cdn.com/entries/icons/facebook/000/027/475/Screen_Shot_2018-10-25_at_11.02.15_AM.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Pikachu Dance | Pikachu Song - YouTube",
+      "htmlTitle": "<b>Pikachu</b> Dance | <b>Pikachu</b> Song - YouTube",
+      "link": "https://www.youtube.com/watch?v=sYNW7-tGiyc",
+      "displayLink": "www.youtube.com",
+      "snippet": "Oct 9, 2017 ... Category. Gaming. Suggested by Sani Music Indonesia. Enak Susunya - Faiha ( \nOfficial Music Video ). Song. Cari Pokemon. Artist. Faiha ...",
+      "htmlSnippet": "Oct 9, 2017 <b>...</b> Category. Gaming. Suggested by Sani Music Indonesia. Enak Susunya - Faiha ( <br>\nOfficial Music Video ). Song. Cari Pokemon. Artist. Faiha&nbsp;...",
+      "cacheId": "O-x6d9-FIwgJ",
+      "formattedUrl": "https://www.youtube.com/watch?v=sYNW7-tGiyc",
+      "htmlFormattedUrl": "https://www.youtube.com/watch?v=sYNW7-tGiyc",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "259",
+            "height": "194",
+            "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQlkrjtRPHRpTPXEVHmYkAsF3w_YdCcgspxA-zr0oaQxXc14zO9Rj6zACU"
+          }
+        ],
+        "metatags": [
+          {
+            "title": "Pikachu Dance | Pikachu Song",
+            "theme-color": "#ff0000",
+            "og:site_name": "YouTube",
+            "og:url": "https://www.youtube.com/watch?v=sYNW7-tGiyc",
+            "og:title": "Pikachu Dance | Pikachu Song",
+            "og:image": "https://i.ytimg.com/vi/sYNW7-tGiyc/hqdefault.jpg",
+            "al:ios:app_store_id": "544007664",
+            "al:ios:app_name": "YouTube",
+            "al:ios:url": "vnd.youtube://www.youtube.com/watch?v=sYNW7-tGiyc&feature=applinks",
+            "al:android:url": "vnd.youtube://www.youtube.com/watch?v=sYNW7-tGiyc&feature=applinks",
+            "al:android:app_name": "YouTube",
+            "al:android:package": "com.google.android.youtube",
+            "al:web:url": "https://www.youtube.com/watch?v=sYNW7-tGiyc&feature=applinks",
+            "og:type": "video.other",
+            "og:video:url": "https://www.youtube.com/embed/sYNW7-tGiyc",
+            "og:video:secure_url": "https://www.youtube.com/embed/sYNW7-tGiyc",
+            "og:video:type": "text/html",
+            "og:video:width": "1280",
+            "og:video:height": "720",
+            "og:video:tag": "Amazing",
+            "fb:app_id": "87741124305",
+            "twitter:card": "player",
+            "twitter:site": "@youtube",
+            "twitter:url": "https://www.youtube.com/watch?v=sYNW7-tGiyc"
+          }
+        ],
+        "videoobject": [
+          {
+            "url": "https://www.youtube.com/watch?v=sYNW7-tGiyc",
+            "name": "Pikachu Dance | Pikachu Song",
+            "paid": "False",
+            "channelid": "UC8XCGKQ3cauKlpjO5VAUltQ",
+            "videoid": "sYNW7-tGiyc",
+            "duration": "PT15M54S",
+            "unlisted": "False",
+            "thumbnailurl": "https://i.ytimg.com/vi/sYNW7-tGiyc/hqdefault.jpg",
+            "embedurl": "https://www.youtube.com/embed/sYNW7-tGiyc",
+            "playertype": "HTML5 Flash",
+            "width": "1280",
+            "height": "720",
+            "isfamilyfriendly": "True",
+            "regionsallowed": "AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BV,BW,BY,BZ,CA,CC,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CX,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,EH...",
+            "interactioncount": "49746762",
+            "datepublished": "2017-10-09",
+            "genre": "Gaming"
+          }
+        ],
+        "imageobject": [
+          {
+            "url": "https://i.ytimg.com/vi/sYNW7-tGiyc/hqdefault.jpg",
+            "width": "480",
+            "height": "360"
+          }
+        ],
+        "person": [
+          {
+            "url": "http://www.youtube.com/channel/UC8XCGKQ3cauKlpjO5VAUltQ"
+          },
+          {
+            "url": "https://plus.google.com/104760204789027316350"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://i.ytimg.com/vi/sYNW7-tGiyc/hqdefault.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Hot fuzz: why has the world gone mad over Pokémon Detective ...",
+      "htmlTitle": "Hot fuzz: why has the world gone mad over Pokémon Detective ...",
+      "link": "https://www.theguardian.com/games/2018/nov/13/pokemon-detective-pikachu-ryan-reynolds",
+      "displayLink": "www.theguardian.com",
+      "snippet": "Nov 13, 2018 ... This week, Warner Bros released the first trailer for Pokémon: Detective Pikachu, \na live-action Pokémon film due for release in May. At the time ...",
+      "htmlSnippet": "Nov 13, 2018 <b>...</b> This week, Warner Bros released the first trailer for Pokémon: Detective <b>Pikachu</b>, <br>\na live-action Pokémon film due for release in May. At the time&nbsp;...",
+      "formattedUrl": "https://www.theguardian.com/.../pokemon-detective-pikachu-ryan-reynolds",
+      "htmlFormattedUrl": "https://www.theguardian.com/.../pokemon-detective-<b>pikachu</b>-ryan-reynolds",
+      "pagemap": {
+        "thumbnail": [
+          {
+            "src": "https://i.guim.co.uk/img/media/3fc9a93e2ef329e6e0fad86cd9da9b81f5438b5a/384_0_992_596/master/992.jpg?width=620&quality=85&auto=format&fit=max&s=45734c9da2d6f9ec0417112f6a6029c7"
+          }
+        ],
+        "metatags": [
+          {
+            "format-detection": "telephone=no",
+            "handheldfriendly": "True",
+            "viewport": "width=device-width,minimum-scale=1,initial-scale=1",
+            "apple-mobile-web-app-title": "Guardian",
+            "application-name": "The Guardian",
+            "msapplication-tilecolor": "#052962",
+            "theme-color": "#052962",
+            "msapplication-tileimage": "https://assets.guim.co.uk/images/favicons/023dafadbf5ef53e0865e4baaaa32b3b/windows_tile_144_b.png",
+            "apple-itunes-app": "app-id=409128287, app-argument=https://www.theguardian.com/games/2018/nov/13/pokemon-detective-pikachu-ryan-reynolds, affiliate-data=ct=newsmartappbanner&pt=304191",
+            "author": "Keza MacDonald",
+            "thumbnail": "https://i.guim.co.uk/img/media/3fc9a93e2ef329e6e0fad86cd9da9b81f5438b5a/384_0_992_596/master/992.jpg?width=620&quality=85&auto=format&fit=max&s=45734c9da2d6f9ec0417112f6a6029c7",
+            "news_keywords": "Games,Film,Culture,Pokémon",
+            "og:url": "http://www.theguardian.com/games/2018/nov/13/pokemon-detective-pikachu-ryan-reynolds",
+            "article:author": "https://www.theguardian.com/profile/keza-macdonald",
+            "og:image:height": "721",
+            "og:description": "The live-action film trailer has become an overnight sensation – thanks to a mix of unsettlement, nostalgia and Ryan Reynolds",
+            "og:image:width": "1200",
+            "og:image": "https://i.guim.co.uk/img/media/3fc9a93e2ef329e6e0fad86cd9da9b81f5438b5a/384_0_992_596/master/992.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&s=6d7842601bc26379e3f62c22c36cd53b",
+            "al:ios:url": "gnmguardian://games/2018/nov/13/pokemon-detective-pikachu-ryan-reynolds?contenttype=Article&source=applinks",
+            "article:publisher": "https://www.facebook.com/theguardian",
+            "og:type": "article",
+            "al:ios:app_store_id": "409128287",
+            "article:section": "Games",
+            "article:published_time": "2018-11-13T12:36:41.000Z",
+            "og:title": "Hot fuzz: why has the world gone mad over Pokémon Detective Pikachu?",
+            "fb:app_id": "180444840287",
+            "article:tag": "Games,Film,Culture,Pokémon",
+            "al:ios:app_name": "The Guardian",
+            "og:site_name": "the Guardian",
+            "article:modified_time": "2018-11-13T12:38:21.000Z",
+            "twitter:app:id:iphone": "409128287",
+            "twitter:app:name:googleplay": "The Guardian",
+            "twitter:app:name:ipad": "The Guardian",
+            "twitter:image": "https://i.guim.co.uk/img/media/3fc9a93e2ef329e6e0fad86cd9da9b81f5438b5a/384_0_992_596/master/992.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&s=6d7842601bc26379e3f62c22c36cd53b",
+            "twitter:site": "@guardian",
+            "twitter:app:url:ipad": "gnmguardian://games/2018/nov/13/pokemon-detective-pikachu-ryan-reynolds?contenttype=Article&source=twitter",
+            "twitter:card": "summary_large_image",
+            "twitter:app:name:iphone": "The Guardian",
+            "twitter:app:id:ipad": "409128287",
+            "twitter:app:id:googleplay": "com.guardian",
+            "twitter:app:url:googleplay": "guardian://www.theguardian.com/games/2018/nov/13/pokemon-detective-pikachu-ryan-reynolds",
+            "twitter:app:url:iphone": "gnmguardian://games/2018/nov/13/pokemon-detective-pikachu-ryan-reynolds?contenttype=Article&source=twitter",
+            "twitter:dnt": "on",
+            "fb:pages": "10513336322"
+          }
+        ],
+        "newsarticle": [
+          {
+            "mainentityofpage": "https://www.theguardian.com/games/2018/nov/13/pokemon-detective-pikachu-ryan-reynolds",
+            "headline": "Hot fuzz: why has the world gone mad over Pokémon Detective Pikachu?",
+            "description": "The live-action film trailer has become an overnight sensation – thanks to a mix of unsettlement, nostalgia and Ryan Reynolds",
+            "datepublished": "2018-11-13T07:36:41-0500",
+            "datemodified": "2018-11-13T07:38:21-0500",
+            "articlebody": "This week, Warner Bros released the first trailer for Pokémon: Detective Pikachu, a live-action Pokémon film due for release in May. At the time of writing, the trailer has been viewed 10m..."
+          }
+        ],
+        "imageobject": [
+          {
+            "url": "https://uploads.guim.co.uk/2018/01/31/TheGuardian_AMP.png",
+            "width": "190",
+            "height": "60"
+          },
+          {
+            "representativeofpage": "true",
+            "url": "https://i.guim.co.uk/img/media/3fc9a93e2ef329e6e0fad86cd9da9b81f5438b5a/384_0_992_596/master/992.jpg?width=700&quality=85&auto=format&fit=max&s=ff681cd7a24edcd5a789af8521bca333",
+            "width": "992",
+            "height": "596",
+            "contenturl": "https://i.guim.co.uk/img/media/3fc9a93e2ef329e6e0fad86cd9da9b81f5438b5a/384_0_992_596/master/992.jpg?width=300&quality=85&auto=format&fit=max&s=2da80f07bd008fd1f36e13c80ed361b4",
+            "description": "Cuddly gumshoe … Pokémon: Detective Pikachu. Photograph: Warner Bros"
+          }
+        ],
+        "person": [
+          {
+            "sameas": "Keza MacDonald",
+            "name": "Keza MacDonald"
+          },
+          {
+            "url": "HunkyPants",
+            "givenname": "HunkyPants"
+          },
+          {
+            "url": "MidasRex",
+            "givenname": "MidasRex"
+          },
+          {
+            "url": "TheMouOne",
+            "givenname": "TheMouOne"
+          },
+          {
+            "url": "CodeIs45100",
+            "givenname": "CodeIs45100"
+          },
+          {
+            "url": "skybluebarmy",
+            "givenname": "skybluebarmy"
+          },
+          {
+            "url": "ChrisRyanParker",
+            "givenname": "ChrisRyanParker"
+          },
+          {
+            "url": "TheMouOne",
+            "givenname": "TheMouOne"
+          },
+          {
+            "url": "ChrisRyanParker",
+            "givenname": "ChrisRyanParker"
+          },
+          {
+            "url": "Thatingles",
+            "givenname": "Thatingles"
+          },
+          {
+            "url": "CodeIs45100",
+            "givenname": "CodeIs45100"
+          },
+          {
+            "url": "letsgowhynot",
+            "givenname": "letsgowhynot"
+          },
+          {
+            "url": "CodeIs45100",
+            "givenname": "CodeIs45100"
+          },
+          {
+            "url": "letsgowhynot",
+            "givenname": "letsgowhynot"
+          },
+          {
+            "url": "mr_phillip",
+            "givenname": "mr_phillip"
+          },
+          {
+            "url": "antonyJ",
+            "givenname": "antonyJ"
+          },
+          {
+            "url": "chrisymo",
+            "givenname": "chrisymo"
+          },
+          {
+            "url": "antonyJ",
+            "givenname": "antonyJ"
+          },
+          {
+            "url": "CodeIs45100",
+            "givenname": "CodeIs45100"
+          },
+          {
+            "url": "weeto_boy",
+            "givenname": "weeto_boy"
+          },
+          {
+            "url": "Glozboy",
+            "givenname": "Glozboy"
+          },
+          {
+            "url": "Kyle_Reese",
+            "givenname": "Kyle_Reese"
+          },
+          {
+            "url": "CodeIs45100",
+            "givenname": "CodeIs45100"
+          },
+          {
+            "url": "Melvazord",
+            "givenname": "Melvazord"
+          },
+          {
+            "url": "letsgowhynot",
+            "givenname": "letsgowhynot"
+          }
+        ],
+        "organization": [
+          {
+            "name": "The Guardian",
+            "sameas": "https://www.theguardian.com/"
+          }
+        ],
+        "comment": [
+          {
+            "datecreated": "2018-11-13T12:50:04Z",
+            "text": "The film will make over a billion, will probably be a fun, nostalgic few hours in a bizarre world with creatures we can only see through CGI, with a Hollywood A-List hunk as one of it's selling..."
+          },
+          {
+            "datecreated": "2018-11-13T12:58:10Z",
+            "text": "How do you get Pikachu on a bus? Pokemon."
+          },
+          {
+            "datecreated": "2018-11-13T13:01:24Z",
+            "text": "Ryan Reynolds voices a Pokemon. It does not compute!"
+          },
+          {
+            "datecreated": "2018-11-13T13:46:49Z",
+            "text": "I was expecting Pikachu to sound like Danny de Vito."
+          },
+          {
+            "datecreated": "2018-11-13T17:35:07Z",
+            "text": "https://m.uk.ign.com/articles/2018/11/13/the-internet-recut-the-detective-pikachu-trailer-with-danny-devitos-voice"
+          },
+          {
+            "datecreated": "2018-11-13T13:01:47Z",
+            "text": "Some of it is absolute nightmare fuel, but fair play, they had a style and they've stuck to it."
+          },
+          {
+            "datecreated": "2018-11-13T13:02:20Z",
+            "text": "Get Will Smith to voice Squitrle."
+          },
+          {
+            "datecreated": "2018-11-13T13:04:18Z",
+            "text": "I thought we decided Pitbull was Squirtle?"
+          },
+          {
+            "datecreated": "2018-11-13T14:48:54Z",
+            "text": "Surely he should be gettin' jigglypuff with it?"
+          },
+          {
+            "datecreated": "2018-11-13T13:29:36Z",
+            "text": "I can see it being rubbish, but I will definitely watch the absolute shit out of it."
+          },
+          {
+            "datecreated": "2018-11-13T13:57:36Z",
+            "text": "Which is why a) they made it and b) they don't bother putting too much thought into it."
+          },
+          {
+            "datecreated": "2018-11-13T13:58:36Z",
+            "text": "Fine by me!"
+          },
+          {
+            "datecreated": "2018-11-14T19:12:39Z",
+            "text": "Not by people making good films, though."
+          },
+          {
+            "datecreated": "2018-11-13T13:33:07Z",
+            "text": "I look forward to this movie being snarkily referenced in Deadpool 3."
+          },
+          {
+            "datecreated": "2018-11-13T15:17:24Z",
+            "text": "I look forward to this movie knowingly referencing Deadpool 3."
+          },
+          {
+            "datecreated": "2018-11-13T13:40:59Z",
+            "text": "No wonder millennial are so annoying if pokemon was the highlight of your childhoods."
+          },
+          {
+            "datecreated": "2018-11-13T13:49:45Z",
+            "text": "wow - just so much resentment"
+          },
+          {
+            "datecreated": "2018-11-13T14:05:21Z",
+            "text": "Errrr fighting the Elite Four is how we turn boys into men. How did you \"come of age\"?!"
+          },
+          {
+            "datecreated": "2018-11-13T14:30:15Z",
+            "text": "Clearly never played!!"
+          },
+          {
+            "datecreated": "2018-11-13T13:46:11Z",
+            "text": "This is going to be an absolute stinker, jumped on by the simple-minded dullards who enjoyed Deadpool."
+          },
+          {
+            "datecreated": "2018-11-13T13:57:19Z",
+            "text": "Hey! Deadpool was awesome, though I don't see what this movie has to do with it other than the voice?"
+          },
+          {
+            "datecreated": "2018-11-13T14:00:13Z",
+            "text": "I didn't like Deadpool at all, but I will definitely watch this.... where do I fit in?"
+          },
+          {
+            "datecreated": "2018-11-13T14:28:38Z",
+            "text": "I don't like Ryan Reynolds. I don't like characters with lazy quipping. I don't like it when the 4th wall is broken. I loved Deadpool. I am a monster."
+          },
+          {
+            "datecreated": "2018-11-13T13:56:45Z",
+            "text": "Star Wars re-sold, Blade Runner re-sold, Pokemon...the real question is why did my dance-mix sample of 'Whassup?' not get to No 1?"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://i.guim.co.uk/img/media/3fc9a93e2ef329e6e0fad86cd9da9b81f5438b5a/384_0_992_596/master/992.jpg?width=300&quality=85&auto=format&fit=max&s=2da80f07bd008fd1f36e13c80ed361b4",
+            "type": "1",
+            "width": "290",
+            "height": "174"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Pikachu can mimic any Pokemon in existence! - YouTube",
+      "htmlTitle": "<b>Pikachu</b> can mimic any Pokemon in existence! - YouTube",
+      "link": "https://www.youtube.com/watch?v=Zx2CBt72Ji8",
+      "displayLink": "www.youtube.com",
+      "snippet": "Oct 20, 2018 ... Ash's Pikachu is secretly a ditto... Edit: Saturday Oct 27,2018 - 1 Million people \nhave watched this video huh? Not expecting this at all. Thursday ...",
+      "htmlSnippet": "Oct 20, 2018 <b>...</b> Ash&#39;s <b>Pikachu</b> is secretly a ditto... Edit: Saturday Oct 27,2018 - 1 Million people <br>\nhave watched this video huh? Not expecting this at all. Thursday&nbsp;...",
+      "cacheId": "ut9taS2VCHcJ",
+      "formattedUrl": "https://www.youtube.com/watch?v=Zx2CBt72Ji8",
+      "htmlFormattedUrl": "https://www.youtube.com/watch?v=Zx2CBt72Ji8",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "300",
+            "height": "168",
+            "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRB5Yg-8BkAu0_sdOL2sb74Klq0nVdL6Lmu9xWIA6tZMkc41VF0iHTbVmTL"
+          }
+        ],
+        "metatags": [
+          {
+            "title": "Pikachu can mimic any Pokemon in existence!",
+            "theme-color": "#ff0000",
+            "og:site_name": "YouTube",
+            "og:url": "https://www.youtube.com/watch?v=Zx2CBt72Ji8",
+            "og:title": "Pikachu can mimic any Pokemon in existence!",
+            "og:image": "https://i.ytimg.com/vi/Zx2CBt72Ji8/maxresdefault.jpg",
+            "og:description": "Ash's Pikachu is secretly a ditto... Edit: Saturday Oct 27,2018 - 1 Million people have watched this video huh? Not expecting this at all. Thursday Nov 1,201...",
+            "al:ios:app_store_id": "544007664",
+            "al:ios:app_name": "YouTube",
+            "al:ios:url": "vnd.youtube://www.youtube.com/watch?v=Zx2CBt72Ji8&feature=applinks",
+            "al:android:url": "vnd.youtube://www.youtube.com/watch?v=Zx2CBt72Ji8&feature=applinks",
+            "al:android:app_name": "YouTube",
+            "al:android:package": "com.google.android.youtube",
+            "al:web:url": "https://www.youtube.com/watch?v=Zx2CBt72Ji8&feature=applinks",
+            "og:type": "video.other",
+            "og:video:url": "https://www.youtube.com/embed/Zx2CBt72Ji8",
+            "og:video:secure_url": "https://www.youtube.com/embed/Zx2CBt72Ji8",
+            "og:video:type": "text/html",
+            "og:video:width": "1280",
+            "og:video:height": "720",
+            "og:video:tag": "ash girlfriend",
+            "fb:app_id": "87741124305",
+            "twitter:card": "player",
+            "twitter:site": "@youtube",
+            "twitter:url": "https://www.youtube.com/watch?v=Zx2CBt72Ji8",
+            "twitter:title": "Pikachu can mimic any Pokemon in existence!",
+            "twitter:description": "Ash's Pikachu is secretly a ditto... Edit: Saturday Oct 27,2018 - 1 Million people have watched this video huh? Not expecting this at all. Thursday Nov 1,201...",
+            "twitter:image": "https://i.ytimg.com/vi/Zx2CBt72Ji8/maxresdefault.jpg",
+            "twitter:app:name:iphone": "YouTube",
+            "twitter:app:id:iphone": "544007664",
+            "twitter:app:name:ipad": "YouTube",
+            "twitter:app:id:ipad": "544007664",
+            "twitter:app:url:iphone": "vnd.youtube://www.youtube.com/watch?v=Zx2CBt72Ji8&feature=applinks",
+            "twitter:app:url:ipad": "vnd.youtube://www.youtube.com/watch?v=Zx2CBt72Ji8&feature=applinks",
+            "twitter:app:name:googleplay": "YouTube",
+            "twitter:app:id:googleplay": "com.google.android.youtube",
+            "twitter:app:url:googleplay": "https://www.youtube.com/watch?v=Zx2CBt72Ji8",
+            "twitter:player": "https://www.youtube.com/embed/Zx2CBt72Ji8",
+            "twitter:player:width": "1280",
+            "twitter:player:height": "720"
+          }
+        ],
+        "videoobject": [
+          {
+            "url": "https://www.youtube.com/watch?v=Zx2CBt72Ji8",
+            "name": "Pikachu can mimic any Pokemon in existence!",
+            "description": "Ash's Pikachu is secretly a ditto... Edit: Saturday Oct 27,2018 - 1 Million people have watched this video huh? Not expecting this at all. Thursday Nov 1,201...",
+            "paid": "False",
+            "channelid": "UCqerpheidp8z9-cmrfwRA0Q",
+            "videoid": "Zx2CBt72Ji8",
+            "duration": "PT2M6S",
+            "unlisted": "False",
+            "thumbnailurl": "https://i.ytimg.com/vi/Zx2CBt72Ji8/maxresdefault.jpg",
+            "embedurl": "https://www.youtube.com/embed/Zx2CBt72Ji8",
+            "playertype": "HTML5 Flash",
+            "width": "1280",
+            "height": "720",
+            "isfamilyfriendly": "True",
+            "regionsallowed": "AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BV,BW,BY,BZ,CA,CC,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CX,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,EH...",
+            "interactioncount": "4294804",
+            "datepublished": "2018-10-20",
+            "genre": "Entertainment"
+          }
+        ],
+        "imageobject": [
+          {
+            "url": "https://i.ytimg.com/vi/Zx2CBt72Ji8/maxresdefault.jpg",
+            "width": "1280",
+            "height": "720"
+          }
+        ],
+        "person": [
+          {
+            "url": "http://www.youtube.com/channel/UCqerpheidp8z9-cmrfwRA0Q"
+          },
+          {
+            "url": "https://plus.google.com/106630779731958995523"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://i.ytimg.com/vi/Zx2CBt72Ji8/maxresdefault.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Sentosa to host first Pikachu Night Parade outside Japan in December",
+      "htmlTitle": "Sentosa to host first <b>Pikachu</b> Night Parade outside Japan in December",
+      "link": "https://www.straitstimes.com/singapore/sentosa-to-host-first-pikachu-night-parade-outside-japan-in-december",
+      "displayLink": "www.straitstimes.com",
+      "snippet": "Nov 14, 2018 ... SINGAPORE - Pokemon fans can look forward to catching Pikachu in action next \nmonth at a Pikachu Night Parade as part of Sentosa's Island ...",
+      "htmlSnippet": "Nov 14, 2018 <b>...</b> SINGAPORE - Pokemon fans can look forward to catching <b>Pikachu</b> in action next <br>\nmonth at a <b>Pikachu</b> Night Parade as part of Sentosa&#39;s Island&nbsp;...",
+      "cacheId": "917-ClrfT0kJ",
+      "formattedUrl": "https://www.straitstimes.com/.../sentosa-to-host-first-pikachu-night-parade- outside-japan-in-december",
+      "htmlFormattedUrl": "https://www.straitstimes.com/.../sentosa-to-host-first-<b>pikachu</b>-night-parade- outside-japan-in-december",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "275",
+            "height": "183",
+            "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTMKbv-1yY8Y9Z6BiIhJFsrH0WWTaC9RLje5NHoLzVU5mobl1whla_7VA6Q"
+          }
+        ],
+        "metatags": [
+          {
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+            "article:author": "DEREK WONG",
+            "og:image": "https://www.straitstimes.com/sites/default/files/styles/x_large/public/articles/2018/11/14/pikachu_night_parade.jpg?itok=YE13qIdo",
+            "og:image:width": "763",
+            "og:image:height": "509",
+            "author": "DEREK WONG",
+            "news_keywords": "POKEMON, SENTOSA",
+            "fb:admins": "100007469197550",
+            "fb:app_id": "263116810509534",
+            "og:site_name": "The Straits Times",
+            "og:type": "article",
+            "og:title": "Sentosa to host first Pikachu Night Parade outside Japan in December",
+            "og:url": "https://www.straitstimes.com/singapore/sentosa-to-host-first-pikachu-night-parade-outside-japan-in-december",
+            "og:description": "SINGAPORE - Pokemon fans can look forward to catching Pikachu in action next month at a Pikachu Night Parade as part of Sentosa's Island Lights event.. Read more at straitstimes.com.",
+            "og:updated_time": "2018-11-14T19:47:03+08:00",
+            "twitter:card": "summary_large_image",
+            "twitter:site": "@STCOM",
+            "twitter:title": "Sentosa to host first Pikachu Night Parade outside Japan in December,",
+            "twitter:url": "https://www.straitstimes.com/singapore/sentosa-to-host-first-pikachu-night-parade-outside-japan-in-december",
+            "twitter:description": "Singapore News -SINGAPORE - Pokemon fans can look forward to catching Pikachu in action next month at a Pikachu Night Parade as part of Sentosa's Island Lights event.. Read more at straitstimes.com.",
+            "article:published_time": "2018-11-14T19:25:08+08:00",
+            "article:modified_time": "2018-11-14T19:47:03+08:00",
+            "dcterms.title": "Sentosa to host first Pikachu Night Parade outside Japan in December",
+            "dcterms.creator": "hermesauto",
+            "dcterms.description": "SINGAPORE - Pokemon fans can look forward to catching Pikachu in action next month at a Pikachu Night Parade as part of Sentosa's Island Lights event. Read more at straitstimes.com.",
+            "dcterms.date": "2018-11-14T19:25+08:00",
+            "dcterms.type": "Text",
+            "dcterms.format": "text/html",
+            "dcterms.identifier": "https://www.straitstimes.com/singapore/sentosa-to-host-first-pikachu-night-parade-outside-japan-in-december",
+            "cxenseparse:sph-accessflag": "1",
+            "cxenseparse:pageclass": "article",
+            "cxenseparse:recs:articleid": "536004",
+            "msapplication-square70x70logo": "/sites/all/themes/custom/bootdemo/images/icons/smalltile.png",
+            "msapplication-square150x150logo": "/sites/all/themes/custom/bootdemo/images/icons/mediumtile.png",
+            "msapplication-wide310x150logo": "/sites/all/themes/custom/bootdemo/images/icons/widetile.png",
+            "msapplication-square310x310logo": "/sites/all/themes/custom/bootdemo/images/icons/largetile.png",
+            "grapeshot_tag": "gs_event_summer_fun,gs_travel_holidays,gc_performing_arts"
+          }
+        ],
+        "newsarticle": [
+          {
+            "headline": "Sentosa to host first Pikachu Night Parade outside Japan in December",
+            "articlebody": "SINGAPORE - Pokemon fans can look forward to catching Pikachu in action next month at a Pikachu Night Parade as part of Sentosa's Island Lights event. The inaugural Pikachu Night Parade, the...",
+            "keywords": "POKEMON",
+            "datepublished": "2018-11-14T19:25:08+08:00",
+            "datemodified": "2018-11-14T19:47:03+08:00"
+          }
+        ],
+        "Item": [
+          {
+            "encoded": "SINGAPORE - Pokemon fans can look forward to catching Pikachu in action next month at a Pikachu Night Parade as part of Sentosa's Island Lights event. The inaugural Pikachu Night Parade, the..."
+          }
+        ],
+        "imageobject": [
+          {
+            "url": "http://www.straitstimes.com/sites/all/themes/custom/bootdemo/images/st-logo.png",
+            "width": "94",
+            "height": "94"
+          },
+          {
+            "image": "A Pikachu Night Parade in Japan. The parade will take place in Sentosa in December 2018, for the first time in Singapore.PHOTO: POKEMON, NINTENDO CREATURES, GAME FREAK",
+            "url": "https://www.straitstimes.com/sites/default/files/articles/2018/11/14/pikachu_night_parade.jpg",
+            "width": "800",
+            "height": "600"
+          }
+        ],
+        "person": [
+          {
+            "name": "Derek Wong"
+          }
+        ],
+        "organization": [
+          {
+            "name": "The Straits Times"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.straitstimes.com/sites/default/files/styles/x_large/public/articles/2018/11/14/pikachu_night_parade.jpg?itok=YE13qIdo"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Partner Pikachu & Eevee Spirits Now Available in Smash Bros ...",
+      "htmlTitle": "Partner <b>Pikachu</b> &amp; Eevee Spirits Now Available in Smash Bros ...",
+      "link": "https://www.youtube.com/watch?v=WdcdbXP4zIU",
+      "displayLink": "www.youtube.com",
+      "snippet": "19 hours ago ... If you have save data for either Pokémon Let's Go Pikachu or Let's Go Eevee, you \ncan receive a special Spirit for them right now in Super ...",
+      "htmlSnippet": "19 hours ago <b>...</b> If you have save data for either Pokémon Let&#39;s Go <b>Pikachu</b> or Let&#39;s Go Eevee, you <br>\ncan receive a special Spirit for them right now in Super&nbsp;...",
+      "cacheId": "PIh5kVVCc_oJ",
+      "formattedUrl": "https://www.youtube.com/watch?v=WdcdbXP4zIU",
+      "htmlFormattedUrl": "https://www.youtube.com/watch?v=WdcdbXP4zIU",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "300",
+            "height": "168",
+            "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSuahHS40BqL-l6eZ0n43-Dl2KSk2sWWbF0dFQMFFn2AUOr01-xqz4WER4"
+          }
+        ],
+        "metatags": [
+          {
+            "title": "Partner Pikachu & Eevee Spirits Now Available in Smash Bros. Ultimate!",
+            "theme-color": "#ff0000",
+            "og:site_name": "YouTube",
+            "og:url": "https://www.youtube.com/watch?v=WdcdbXP4zIU",
+            "og:title": "Partner Pikachu & Eevee Spirits Now Available in Smash Bros. Ultimate!",
+            "og:image": "https://i.ytimg.com/vi/WdcdbXP4zIU/maxresdefault.jpg",
+            "og:description": "If you have save data for either Pokémon Let's Go Pikachu or Let's Go Eevee, you can receive a special Spirit for them right now in Super Smash Bros. Ultimat...",
+            "al:ios:app_store_id": "544007664",
+            "al:ios:app_name": "YouTube",
+            "al:ios:url": "vnd.youtube://www.youtube.com/watch?v=WdcdbXP4zIU&feature=applinks",
+            "al:android:url": "vnd.youtube://www.youtube.com/watch?v=WdcdbXP4zIU&feature=applinks",
+            "al:android:app_name": "YouTube",
+            "al:android:package": "com.google.android.youtube",
+            "al:web:url": "https://www.youtube.com/watch?v=WdcdbXP4zIU&feature=applinks",
+            "og:type": "video.other",
+            "og:video:url": "https://www.youtube.com/embed/WdcdbXP4zIU",
+            "og:video:secure_url": "https://www.youtube.com/embed/WdcdbXP4zIU",
+            "og:video:type": "text/html",
+            "og:video:width": "1280",
+            "og:video:height": "720",
+            "og:video:tag": "Super Smash Bros."
+          }
+        ],
+        "videoobject": [
+          {
+            "url": "https://www.youtube.com/watch?v=WdcdbXP4zIU",
+            "name": "Partner Pikachu & Eevee Spirits Now Available in Smash Bros. Ultimate!",
+            "description": "If you have save data for either Pokémon Let's Go Pikachu or Let's Go Eevee, you can receive a special Spirit for them right now in Super Smash Bros. Ultimat...",
+            "paid": "False",
+            "channelid": "UCfAPTv1LgeEWevG8X_6PUOQ",
+            "videoid": "WdcdbXP4zIU",
+            "duration": "PT2M26S",
+            "unlisted": "False",
+            "thumbnailurl": "https://i.ytimg.com/vi/WdcdbXP4zIU/maxresdefault.jpg",
+            "embedurl": "https://www.youtube.com/embed/WdcdbXP4zIU",
+            "playertype": "HTML5 Flash",
+            "width": "1280",
+            "height": "720",
+            "isfamilyfriendly": "True",
+            "regionsallowed": "AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BV,BW,BY,BZ,CA,CC,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CX,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,EH...",
+            "interactioncount": "6450",
+            "datepublished": "2018-12-13",
+            "genre": "Gaming"
+          }
+        ],
+        "imageobject": [
+          {
+            "url": "https://i.ytimg.com/vi/WdcdbXP4zIU/maxresdefault.jpg",
+            "width": "1280",
+            "height": "720"
+          }
+        ],
+        "person": [
+          {
+            "url": "http://www.youtube.com/user/GameXplain"
+          },
+          {
+            "url": "https://plus.google.com/108004348435696627453"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://i.ytimg.com/vi/WdcdbXP4zIU/maxresdefault.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Pikachu Got a New Haircut With Bangs",
+      "htmlTitle": "<b>Pikachu</b> Got a New Haircut With Bangs",
+      "link": "https://www.thecut.com/2018/07/pikachu-got-a-new-haircut-with-bangs.html",
+      "displayLink": "www.thecut.com",
+      "snippet": "Jul 16, 2018 ... Pokémon character Pikachu got a new haircut which includes bangs and the \ninternet does not like her new hairdo.",
+      "htmlSnippet": "Jul 16, 2018 <b>...</b> Pokémon character <b>Pikachu</b> got a new haircut which includes bangs and the <br>\ninternet does not like her new hairdo.",
+      "formattedUrl": "https://www.thecut.com/2018/.../pikachu-got-a-new-haircut-with-bangs.html",
+      "htmlFormattedUrl": "https://www.thecut.com/2018/.../<b>pikachu</b>-got-a-new-haircut-with-bangs.html",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "310",
+            "height": "162",
+            "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSGNzOSVv0chGwsrqPRonBqxJsdpwuq6WaMnwkc_MKVevZWc5iyD5wivlc"
+          }
+        ],
+        "metatags": [
+          {
+            "viewport": "width=device-width,initial-scale=1,shrink-to-fit=no",
+            "og:title": "So, Pikachu Got Bangs",
+            "twitter:title": "So, Pikachu Got Bangs",
+            "og:url": "https://www.thecut.com/2018/07/pikachu-got-a-new-haircut-with-bangs.html",
+            "article:published_time": "2018-07-16T17:17:25.116-04:00",
+            "twitter:description": "Aww, c’mere, Pikachu. It will all be okay.",
+            "og:description": "Aww, c’mere, Pikachu. It will all be okay.",
+            "twitter:image": "https://pixel.nymag.com/imgs/fashion/daily/2018/07/16/16-pikachu-with-bangs.w600.h315.2x.jpg",
+            "og:image": "https://pixel.nymag.com/imgs/fashion/daily/2018/07/16/16-pikachu-with-bangs.w1200.h630.jpg",
+            "twitter:card": "summary_large_image",
+            "article:tag": "beauty, style, hairy situations, bangs, pikachu, baby bangs, hair",
+            "sailthru.tags": "beauty, style, hairy situations, bangs, pikachu, baby bangs, hair",
+            "author": "Hayley Schueneman",
+            "twitter:site": "@TheCut",
+            "article:publisher": "https://www.facebook.com/cut",
+            "fb:app_id": "343556435754245",
+            "og:site_name": "The Cut",
+            "og:type": "article",
+            "type": "Article",
+            "vertical": "The Cut",
+            "apple-mobile-web-app-title": "The Cut",
+            "application-name": "The Cut",
+            "msapplication-tilecolor": "#ff5656",
+            "msapplication-tileimage": "https://cache.nymag.com/media/thecut/icon.144x144.png"
+          }
+        ],
+        "article": [
+          {
+            "url": "https://www.thecut.com/2018/07/pikachu-got-a-new-haircut-with-bangs.html",
+            "mainentityofpage": "https://www.thecut.com/2018/07/pikachu-got-a-new-haircut-with-bangs.html",
+            "articlesection": "Beauty",
+            "datepublished": "2018-07-16T17:17:25.116-04:00",
+            "headline": "So, Pikachu Got Bangs",
+            "articlebody": "There are several rites of passage every girl encounters on her path to womanhood: Her first period, her first bra, her first heartbreak, and of course, the very first time she tries to pull..."
+          }
+        ],
+        "imageobject": [
+          {
+            "url": "http://www.thecut.com/media/sites/wwwthecut/logo.w600.h60.png",
+            "height": "60",
+            "width": "600"
+          },
+          {
+            "url": "https://pixel.nymag.com/imgs/fashion/daily/2018/07/16/16-pikachu-with-bangs.w1200.h630.jpg",
+            "height": "630",
+            "width": "1200"
+          }
+        ],
+        "person": [
+          {
+            "name": "Hayley Schueneman",
+            "sameas": "https://www.thecut.com/author/hayley-schueneman"
+          }
+        ],
+        "organization": [
+          {
+            "name": "The Cut",
+            "sameas": "http://www.thecut.com"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://pixel.nymag.com/imgs/fashion/daily/2018/07/16/16-pikachu-with-bangs.w1200.h630.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Detective Pikachu: Why fans are so upset about the new Pokémon film",
+      "htmlTitle": "Detective <b>Pikachu</b>: Why fans are so upset about the new Pokémon film",
+      "link": "https://www.theguardian.com/games/shortcuts/2018/nov/13/detective-pikachu-why-fans-are-so-upset-about-the-new-pokemon-film",
+      "displayLink": "www.theguardian.com",
+      "snippet": "Nov 13, 2018 ... The great Pikachu reduced to what looks like a hamster? Jigglypuff looking like a \nwet teddy bear? It's easy to see why the trailer for this new ...",
+      "htmlSnippet": "Nov 13, 2018 <b>...</b> The great <b>Pikachu</b> reduced to what looks like a hamster? Jigglypuff looking like a <br>\nwet teddy bear? It&#39;s easy to see why the trailer for this new&nbsp;...",
+      "formattedUrl": "https://www.theguardian.com/.../detective-pikachu-why-fans-are-so-upset- about-the-new-pokemon-film",
+      "htmlFormattedUrl": "https://www.theguardian.com/.../detective-<b>pikachu</b>-why-fans-are-so-upset- about-the-new-pokemon-film",
+      "pagemap": {
+        "thumbnail": [
+          {
+            "src": "https://i.guim.co.uk/img/media/dd703cd39013271a45bc199fae6aa1ddad72faaf/0_0_2000_1200/master/2000.jpg?width=620&quality=85&auto=format&fit=max&s=7fd5d378b70f44d86a4450a7d1ccb393"
+          }
+        ],
+        "metatags": [
+          {
+            "format-detection": "telephone=no",
+            "handheldfriendly": "True",
+            "viewport": "width=device-width,minimum-scale=1,initial-scale=1",
+            "apple-mobile-web-app-title": "Guardian",
+            "application-name": "The Guardian",
+            "msapplication-tilecolor": "#052962",
+            "theme-color": "#052962",
+            "msapplication-tileimage": "https://assets.guim.co.uk/images/favicons/023dafadbf5ef53e0865e4baaaa32b3b/windows_tile_144_b.png",
+            "apple-itunes-app": "app-id=409128287, app-argument=https://www.theguardian.com/games/shortcuts/2018/nov/13/detective-pikachu-why-fans-are-so-upset-about-the-new-pokemon-film, affiliate-data=ct=newsmartappbanner&pt=304191",
+            "author": "Poppy Noor",
+            "thumbnail": "https://i.guim.co.uk/img/media/dd703cd39013271a45bc199fae6aa1ddad72faaf/0_0_2000_1200/master/2000.jpg?width=620&quality=85&auto=format&fit=max&s=7fd5d378b70f44d86a4450a7d1ccb393",
+            "news_keywords": "Pokémon,Film",
+            "og:url": "http://www.theguardian.com/games/shortcuts/2018/nov/13/detective-pikachu-why-fans-are-so-upset-about-the-new-pokemon-film",
+            "article:author": "https://www.theguardian.com/profile/poppy-noor",
+            "og:image:height": "720",
+            "og:description": "The great Pikachu reduced to what looks like a hamster? Jigglypuff looking like a wet teddy bear? It’s easy to see why the trailer for this new adaptation has caused controversy",
+            "og:image:width": "1200",
+            "og:image": "https://i.guim.co.uk/img/media/dd703cd39013271a45bc199fae6aa1ddad72faaf/0_0_2000_1200/master/2000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&s=eb379c72c3f8cb4c7953145005f42844",
+            "al:ios:url": "gnmguardian://games/shortcuts/2018/nov/13/detective-pikachu-why-fans-are-so-upset-about-the-new-pokemon-film?contenttype=Article&source=applinks",
+            "article:publisher": "https://www.facebook.com/theguardian",
+            "og:type": "article",
+            "al:ios:app_store_id": "409128287",
+            "article:section": "Games",
+            "article:published_time": "2018-11-13T17:30:56.000Z",
+            "og:title": "Detective Pikachu: Why fans are so upset about the new Pokémon film",
+            "fb:app_id": "180444840287",
+            "article:tag": "Pokémon,Film",
+            "al:ios:app_name": "The Guardian",
+            "og:site_name": "the Guardian",
+            "article:modified_time": "2018-11-13T18:10:05.000Z",
+            "twitter:app:id:iphone": "409128287",
+            "twitter:app:name:googleplay": "The Guardian",
+            "twitter:app:name:ipad": "The Guardian",
+            "twitter:image": "https://i.guim.co.uk/img/media/dd703cd39013271a45bc199fae6aa1ddad72faaf/0_0_2000_1200/master/2000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&s=eb379c72c3f8cb4c7953145005f42844",
+            "twitter:site": "@guardian",
+            "twitter:app:url:ipad": "gnmguardian://games/shortcuts/2018/nov/13/detective-pikachu-why-fans-are-so-upset-about-the-new-pokemon-film?contenttype=Article&source=twitter",
+            "twitter:card": "summary_large_image",
+            "twitter:app:name:iphone": "The Guardian",
+            "twitter:creator": "@PoppyNoor",
+            "twitter:app:id:ipad": "409128287",
+            "twitter:app:id:googleplay": "com.guardian",
+            "twitter:app:url:googleplay": "guardian://www.theguardian.com/games/shortcuts/2018/nov/13/detective-pikachu-why-fans-are-so-upset-about-the-new-pokemon-film",
+            "twitter:app:url:iphone": "gnmguardian://games/shortcuts/2018/nov/13/detective-pikachu-why-fans-are-so-upset-about-the-new-pokemon-film?contenttype=Article&source=twitter",
+            "twitter:dnt": "on",
+            "fb:pages": "10513336322"
+          }
+        ],
+        "newsarticle": [
+          {
+            "mainentityofpage": "https://www.theguardian.com/games/shortcuts/2018/nov/13/detective-pikachu-why-fans-are-so-upset-about-the-new-pokemon-film",
+            "headline": "Detective Pikachu: Why fans are so upset about the new Pokémon film",
+            "description": "The great Pikachu reduced to what looks like a hamster? Jigglypuff looking like a wet teddy bear? It’s easy to see why the trailer for this new adaptation has caused controversy",
+            "datepublished": "2018-11-13T12:30:56-0500",
+            "datemodified": "2018-11-13T13:10:05-0500",
+            "articlebody": "No Hollywood adaptation of a childhood favourite ever quite lives up to expectations. But the trailer for the live action Pokémon: Detective Pikachu film has gone too far, causing controversy,...",
+            "contenturl": "https://i.guim.co.uk/img/media/67fed3b1068487f67df01309c30676976565e408/0_0_3999_2400/master/3999.jpg?width=460&quality=85&auto=format&fit=max&s=fdba7ca6f7a200d7e9cb20581e9fdc6f"
+          }
+        ],
+        "imageobject": [
+          {
+            "url": "https://uploads.guim.co.uk/2018/01/31/TheGuardian_AMP.png",
+            "width": "190",
+            "height": "60"
+          },
+          {
+            "representativeofpage": "true",
+            "url": "https://i.guim.co.uk/img/media/dd703cd39013271a45bc199fae6aa1ddad72faaf/0_0_2000_1200/master/2000.jpg?width=700&quality=85&auto=format&fit=max&s=12b29b5c56d4016106f8f8df13bcb52e",
+            "width": "2000",
+            "height": "1200",
+            "contenturl": "https://i.guim.co.uk/img/media/dd703cd39013271a45bc199fae6aa1ddad72faaf/0_0_2000_1200/master/2000.jpg?width=300&quality=85&auto=format&fit=max&s=ed0a68034e17356368eab8d73df0afd7",
+            "description": "Pikachu didn’t bring Ash back from the dead for this. Photograph: https://www.youtube.com/watch?v=1roy4o4tqQM"
+          }
+        ],
+        "person": [
+          {
+            "sameas": "Poppy Noor",
+            "name": "Poppy Noor"
+          }
+        ],
+        "organization": [
+          {
+            "name": "The Guardian",
+            "sameas": "https://www.theguardian.com/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://i.guim.co.uk/img/media/dd703cd39013271a45bc199fae6aa1ddad72faaf/0_0_2000_1200/master/2000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&s=eb379c72c3f8cb4c7953145005f42844"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Pika Pika! Why Detective Pikachu is angering Pokemon purists",
+      "htmlTitle": "Pika Pika! Why Detective <b>Pikachu</b> is angering Pokemon purists",
+      "link": "https://www.telegraph.co.uk/films/2018/11/14/pika-pika-detective-pikachu-angering-pokemon-purists/",
+      "displayLink": "www.telegraph.co.uk",
+      "snippet": "Nov 14, 2018 ... The trailer for Warner Bros's live-action and animated hybrid film Pokemon: \nDetective Pikachu has proved surprisingly controversial. The main ...",
+      "htmlSnippet": "Nov 14, 2018 <b>...</b> The trailer for Warner Bros&#39;s live-action and animated hybrid film Pokemon: <br>\nDetective <b>Pikachu</b> has proved surprisingly controversial. The main&nbsp;...",
+      "cacheId": "X9zdU_vPZkIJ",
+      "formattedUrl": "https://www.telegraph.co.uk/.../pika-pika-detective-pikachu-angering- pokemon-purists/",
+      "htmlFormattedUrl": "https://www.telegraph.co.uk/.../pika-pika-detective-<b>pikachu</b>-angering- pokemon-purists/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "284",
+            "height": "177",
+            "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRAwyClG4YVCvjYNysnx2nDhMe0CXaXT82w7BLUafHipikZ-bv17ZxX6ho"
+          }
+        ],
+        "rating": [
+          {
+            "ratingvalue": "2"
+          },
+          {
+            "ratingvalue": "2"
+          },
+          {
+            "ratingvalue": "2"
+          },
+          {
+            "ratingvalue": "2"
+          },
+          {
+            "ratingvalue": "4"
+          },
+          {
+            "ratingvalue": "5"
+          },
+          {
+            "ratingvalue": "4"
+          },
+          {
+            "ratingvalue": "2"
+          },
+          {
+            "ratingvalue": "4"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#2c769d",
+            "msapplication-tileimage": "/etc/designs/telegraph/core/clientlibs/core/icons/mstile-144x144.png",
+            "msapplication-tooltip": "The Telegraph",
+            "msapplication-config": "/etc/designs/telegraph/core/clientlibs/core/icons/browserconfig.xml",
+            "msapplication-square310x310logo": "/etc/designs/telegraph/core/clientlibs/core/icons/mstile-310x310.png",
+            "msapplication-wide310x150logo": "/etc/designs/telegraph/core/clientlibs/core/icons/mstile-310x150.png",
+            "msapplication-square150x150logo": "/etc/designs/telegraph/core/clientlibs/core/icons/mstile-150x150.png",
+            "msapplication-square70x70logo": "/etc/designs/telegraph/core/clientlibs/core/icons/mstile-70x70.png",
+            "viewport": "width=device-width, initial-scale=1, user-scalable=yes",
+            "tmgads.channel": "films",
+            "tmgads.section": "films-2018",
+            "tmgads.zone": "films.2018.11.14",
+            "tmgads.articleid": "Ark6GNxlsq2N",
+            "tmgads.pagetype": "story",
+            "tmgads.level": "5",
+            "tmgads.geo": "US",
+            "tmgads.keywords": "Film,Film industry,Gaming News,Entertainment,Standard,Culture,Warner Bros. Pictures,Things,Gaming Top Stories,Pokemon,Gaming",
+            "dcsext.channel": "films",
+            "dcsext.category": "2018",
+            "dcsext.genre": "11",
+            "dcsext.mlc": "/films/2018/11/14",
+            "dcsext.articleid": "Ark6GNxlsq2N",
+            "dcsext.content_type": "story",
+            "dcsext.level": "5",
+            "dcsext.author": "Elizabeth MacLeod",
+            "dcsext.articlefirstpublished": "2018-11-14 12:23",
+            "dcsext.cf": "1",
+            "dcsext.cd": "0",
+            "dcsext.cn": "0",
+            "dcsext.pd": "1",
+            "og:title": "Pika Pika! Why Detective Pikachu is angering Pokemon purists",
+            "og:description": "The trailer for Warner Bros&rsquo;s live-action and animated hybrid film Pokemon:",
+            "og:type": "article",
+            "og:site_name": "The Telegraph",
+            "og:url": "https://www.telegraph.co.uk/films/2018/11/14/pika-pika-detective-pikachu-angering-pokemon-purists/",
+            "og:image": "https://www.telegraph.co.uk/content/dam/films/2018/11/14/104304494_mediaitem104304493-xlarge_trans_NvBQzQNjv4BqfmWw8ZtkYoKgUQYLfpqhYiH0-jRUT4rHK8EgtaGoQwQ.jpg",
+            "twitter:title": "Pika Pika! Why Detective Pikachu is angering Pokemon purists",
+            "twitter:url": "https://www.telegraph.co.uk/films/2018/11/14/pika-pika-detective-pikachu-angering-pokemon-purists/",
+            "twitter:image": "https://www.telegraph.co.uk/content/dam/films/2018/11/14/104304494_mediaitem104304493-xlarge_trans_NvBQzQNjv4BqfmWw8ZtkYoKgUQYLfpqhYiH0-jRUT4rHK8EgtaGoQwQ.jpg",
+            "twitter:site": "@TelegraphFilm",
+            "twitter:description": "The trailer for Warner Bros&rsquo;s live-action and animated hybrid film Pokemon:",
+            "twitter:card": "summary_large_image",
+            "tmgads.businesssegment": "culture",
+            "tmg.premium.override": "false",
+            "tmg.premium.state": "false",
+            "premiumcontentonfirstpublish": "false",
+            "article:content_tier": "free",
+            "fb:pages": "143666524748"
+          }
+        ],
+        "article": [
+          {
+            "headline": "Pika Pika! Why Detective Pikachu is angering Pokemon purists",
+            "name": "Pika Pika! Why Detective Pikachu is angering Pokemon purists",
+            "datepublished": "2018-11-14T12:23+0000",
+            "articlebody": "The trailer for Warner Bros’s live-action and animated hybrid film Pokemon: Detective Pikachu has proved surprisingly controversial. The main reason why Pokemon fans are losing their minds..."
+          }
+        ],
+        "imageobject": [
+          {
+            "width": "1151",
+            "height": "719",
+            "url": "https://www.telegraph.co.uk/content/dam/films/2018/11/14/104304494_mediaitem104304493-xlarge_trans_NvBQzQNjv4BqfmWw8ZtkYoKgUQYLfpqhYiH0-jRUT4rHK8EgtaGoQwQ.jpg",
+            "caption": "Pikachu in Pokemon: Detective Pikachu",
+            "copyrightholder": "Credit: Warner Bros"
+          }
+        ],
+        "person": [
+          {
+            "name": "Elizabeth MacLeod"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.telegraph.co.uk/content/dam/films/2018/11/14/104304494_mediaitem104304493-xlarge_trans_NvBQzQNjv4BqfmWw8ZtkYoKgUQYLfpqhYiH0-jRUT4rHK8EgtaGoQwQ.jpg"
+          }
+        ],
+        "wpsidebar": [
+          {
+            "datepublished": "2018-12-13T06:00:00"
+          }
+        ]
+      }
+    }
+  ]
+}
