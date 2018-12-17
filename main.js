@@ -3,46 +3,6 @@
 
 // project displays information regarding the pokemon's hp, attack, defense, and abilities.
 
-// ASQ(21)
-//     .then(function (done, msg) {
-//         setTimeout(function () {
-//             done(msg * 2);
-//         }, 10);
-//     })
-//     .then(function (done, msg) {
-//         done("Meaning of life: " + msg);
-//     })
-//     .then(function (done, msg) {
-//         console.log(msg); // "Meaning of life: 42"
-//     });
-
-
-
-
-// run go-routines
-
-
-// function fetchPokemonData(name) {
-//     var data;
-//     axios.get('https://pokeapi.co/api/v2/pokemon/' + name + '/').then((r) => {
-//         if (r.data != undefined) {
-//             console.log("Warren", r.data);
-//             done(data = r.data);
-//         }
-//     });
-//     return data;
-
-// }
-
-
-
-
-
-
-
-
-
-
 class CARD {
     constructor(imgSrc, imgAlt = 'Pokecard', cardTitle, cardText, buttomHref, buttomAnchor) {
         this.imgSrc = imgSrc;
@@ -145,7 +105,7 @@ class POKEMON {
             for (var i = 1; i < productFrames.length - 1; i++) {
                 var a;
                 setTimeout(console.log, 2000, i, This.data.moves[i - 1].move.name);
-                axios.get('https://www.googleapis.com/customsearch/v1/?key=AIzaSyAU9cKEuID8xJEwLd_kRzXK4-tb3Hnaci8&cx=016836377050291397168%3Atqz5ktercmo&q=' + This.name + '%20-raichu%20' + This.data.moves[i - 1].move.name).then((r) => {
+                axios.get('https://www.googleapis.com/customsearch/v1/?key=AIzaSyAMTf_ZQRAa3l2kznIZmNQqGp9DyZMA3mc&q=' + This.name + '%20' + This.data.moves[i - 1].move.name).then((r) => {
 
                     i < productFrames.length - 2 ? imgFolder.push(r.data.items[0].pagemap.cse_image[0].src) : done(imgFolder.push(r.data.items[0].pagemap.cse_image[0].src));
                 });
@@ -222,21 +182,24 @@ function propagateCards(productFrames, imgFolder, This) {
     }
 
 }
-var Pikachu;
-var pikachu;
-ASQ(Pikachu).then(function (done, Pikachu) {
-    done(Pikachu = new POKEMON('pikachu'));
-    var pikachu = Pikachu
-    console.log(pikachu)
+var Pokemom;
+var pokemon;
+var d = document.querySelector('.container-fluid')
+console.log("class", d.classList[1]);
+name = d.classList[1]
+ASQ(name).then(function (done, name) {
+    done(Pokemon = new POKEMON(name));
+    var pokemon = Pokemon
+    console.log(pokemon)
 
 
 }).then(function (done, pikachu) {
-    done(pikachu);
-    console.log("New Pikachu", Pikachu);
-}).then(function (done, Pikachu) {
-    console.log(Pikachu.hp)
-    var pikachu;
-    done(pikachu = Pikachu);
+    done(pokemon);
+    console.log("New Pokemon", Pokemon);
+}).then(function (done, Pokemon) {
+    console.log(Pokemon.hp)
+    var pokemon;
+    done(pokemon = Pokemon);
     //console.log("2",pikachu);
 })
 
