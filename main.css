@@ -8,7 +8,7 @@ body .container-fluid {
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: border-box; }
-  body .container-fluid .col:first-child p:first-child {
+  body .container-fluid .row:first-child p {
     text-align: center;
     font-family: 'Charm', cursive;
     color: #ee2d2d;
@@ -17,18 +17,18 @@ body .container-fluid {
     padding-top: -.3em;
     margin-bottom: -.3em;
     font-size: 1.5em; }
-  body .container-fluid .col:first-child p {
+  body .container-fluid .row:first-child p {
     text-align: center;
     font-family: 'Charm', cursive;
     color: #ee2d2d;
     font-weight: 700;
     margin-bottom: -.3em;
     font-size: 1.5em; }
-  body .container-fluid .col:first-child #movesparagraph {
+  body .container-fluid .row:first-child #movesparagraph {
     color: blue; }
   body .container-fluid .card {
     opacity: 0.9; }
-  body .container-fluid .col p {
+  body .container-fluid .row p {
     text-align: center;
     font-family: 'Charm', cursive;
     color: #ee2d2d;
