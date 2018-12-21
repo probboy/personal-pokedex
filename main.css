@@ -8,33 +8,26 @@ body .container-fluid {
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: border-box; }
-  body .container-fluid .row:first-child p {
+  body .container-fluid .col:first-child .introStat {
     text-align: center;
     font-family: 'Charm', cursive;
     color: #ee2d2d;
     font-weight: 700;
-    margin-top: -.3em;
-    padding-top: -.3em;
-    margin-bottom: -.3em;
     font-size: 1.5em; }
-  body .container-fluid .row:first-child p {
+  body .container-fluid .col:first-child #movesparagraph {
     text-align: center;
     font-family: 'Charm', cursive;
-    color: #ee2d2d;
+    color: blue !important;
     font-weight: 700;
-    margin-bottom: -.3em;
-    font-size: 1.5em; }
-  body .container-fluid .row:first-child #movesparagraph {
-    color: blue; }
+    font-size: 1.5em;
+    margin-bottom: 0.5em; }
   body .container-fluid .card {
     opacity: 0.9; }
-  body .container-fluid .row p {
+  body .container-fluid .col p {
     text-align: center;
-    font-family: 'Charm', cursive;
-    color: #ee2d2d;
-    font-weight: 700;
-    margin-bottom: -.3em;
-    font-size: 1.5em; }
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin-bottom: -.3em; }
 body h1 {
   text-align: center;
   font-family: 'Charm', cursive;

@@ -1,27 +1,21 @@
 // project has all css code written is sass 
 body {
     .container-fluid {
-        .row:first-child{
-            p {
+        .col:first-child{
+            .introStat {
                 text-align: center;
                 font-family: 'Charm', cursive;
                 color: rgb(238, 45, 45);
                 font-weight: 700;
-                margin-top: -.3em;
-                padding-top:-.3em;
-                margin-bottom: -.3em;
-                font-size: 1.5em;
-            }
-            p {
-                text-align: center;
-                font-family: 'Charm', cursive;
-                color: rgb(238, 45, 45);
-                font-weight: 700;
-                margin-bottom: -.3em;
                 font-size: 1.5em;
             }
             #movesparagraph {
-                color: blue;
+                text-align: center;
+                font-family: 'Charm', cursive;
+                color: blue !important;
+                font-weight: 700;
+                font-size: 1.5em;
+                margin-bottom: .5em
             }
         }
         background-image: url(http://static.comicvine.com/uploads/original/14/146951/3879604-6282234369-12556.jpg);
@@ -36,14 +30,12 @@ body {
         .card {
             opacity: 0.9;
         }
-        .row{
+        .col{
             p {
                 text-align: center;
-                font-family: 'Charm', cursive;
-                color: rgb(238, 45, 45);
-                font-weight: 700;
+                font-family:  'Roboto', sans-serif;
+                color:black;
                 margin-bottom: -.3em;
-                font-size: 1.5em;
             }
         }
     }
