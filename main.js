@@ -5,7 +5,6 @@
 
 function ajax(url, cb) {
     axios.get(url).then((r) => {
-
         return cb(r.data);
     });
 }
@@ -14,19 +13,6 @@ function getFile(url) {
     return ASQ(function (done) {
         ajax(url, done);
     });
-}
-
-function propagateCards(productFrames, imgFolder, This) {
-    for (var i = 1; i < productFrames.length - 1; i++) {
-        var card = new CARD(imgFolder[i - 1], This.moves[i - 1], This.moves[i - 1], "", 'showMovementInfo()', 'Click');
-        productFrames[i].innerHTML = This.moves[i - 1];
-        card.appendCard(productFrames[i]);
-    }
-    var k = document.querySelectorAll('.btn')
-    for (var i = 0; i < k.length; i++) {
-        k[i].parentElement.removeChild(k[i]);
-    }
-
 }
 
 class CARD {
