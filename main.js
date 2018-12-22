@@ -116,7 +116,8 @@ class POKEMON {
                 var moveInfo;
                 var productFrames = document.querySelectorAll('.col');
 
-                console.log("productFrames", productFrames.length)
+
+
 
               
                
@@ -127,10 +128,8 @@ class POKEMON {
                     var moveInfo = yield p2;
                     movesInfoArray.push(['Accuracy: ' + moveInfo.accuracy, '<br>Power: ' + moveInfo.power, '<br>Priority: ' + moveInfo.priority]);
                     This.movesInfoArray = movesInfoArray;
-                    console.log(i);
                     var p3 = getFile('https://www.googleapis.com/customsearch/v1/?key=AIzaSyAk4E3PkcuqMPIKiTV3X7Ub7GDNLox-Qqc&cx=016836377050291397168%3Atqz5ktercmo&q=pokemon%20' + name + '%20' + This.moves[i-1]);
                     imgData.push(moveInfo = yield p3);
-                    console.log(imgData);
                     This.imgData = imgData;
                     productFrames[i].innerHTML = '';
                     var card = new CARD(This.imgData[i - 1].items[0].pagemap.cse_image[0].src == undefined ? This.imgData[0].items[0].pagemap.cse_image[0].src : This.imgData[i - 1].items[0].pagemap.cse_image[0].src, This.imgData[i - 1].items[0].pagemap.metatags[0].title == undefined ? This.imgData[0].items[0].pagemap.metatags[0].title : This.imgData[i - 1].items[0].pagemap.metatags[0].title, This.moves[i - 1], This.movesInfoArray[i - 1]);
@@ -145,6 +144,5 @@ class POKEMON {
 
 
 var d = document.querySelector('.container-fluid')
-console.log("class", d.classList[1]);
 name = d.classList[1]
 var Pokemon = new POKEMON(name);
