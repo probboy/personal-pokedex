@@ -78,14 +78,6 @@ class POKEMON {
                 for (var i = 0; i < data.abilities.length; i++) {
                     (This.abilities.push(data.abilities[i].ability.name));
                 }
-
-                This.moves = [];
-                This.movesURLs = [];
-                for (var i = 0; i < data.moves.length; i++) {
-                    This.moves.push(data.moves[i].move.name);
-                    This.movesURLs.push(data.moves[i].move.url);
-                }
-
                 var speed = document.createElement('p');
                 speed.innerHTML = 'Speed: ' + This.speed
                 var defense = document.createElement('p');
@@ -97,7 +89,7 @@ class POKEMON {
                 var abilities = document.createElement('p');
                 abilities.innerHTML = 'Abilities: ' + This.abilities;
                 var moves = document.createElement('p');
-
+                
                 moves.innerHTML = 'Moves: ' + This.moves;
                 var header = document.querySelector('.col');
                 header.appendChild(speed);
@@ -117,17 +109,25 @@ class POKEMON {
                 introParagraph.id = 'movesparagraph'
                 header.appendChild(introParagraph);
 
+                This.moves = [];
+                This.movesURLs = [];
                 var movesInfoArray = [];
+                var imgData = [];
+                var moveInfo;
+                var productFrames = document.querySelectorAll('.col');
+
+                console.log("productFrames", productFrames.length)
+
+                for (var i = 0; i < data.moves.length; i++) {
+                    This.moves.push(data.moves[i].move.name);
+                    This.movesURLs.push(data.moves[i].move.url);
+                }
                 for (let i = 0; i < This.movesURLs.length; i++) {
                     var p2 = getFile(This.movesURLs[i]);
                     var moveInfo = yield p2;
                     movesInfoArray.push(['Accuracy: ' + moveInfo.accuracy, '<br>Power: ' + moveInfo.power, '<br>Priority: ' + moveInfo.priority]);
                     This.movesInfoArray = movesInfoArray;
                 }
-                var imgData = [];
-                var moveInfo;
-                var productFrames = document.querySelectorAll('.col');
-                console.log("productFrames", productFrames.length)
 
                 for (let i = 1; i < productFrames.length - 1; i++) {
                     console.log(i);
