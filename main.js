@@ -119,15 +119,14 @@ class POKEMON {
                 console.log("productFrames", productFrames.length)
 
               
-                for (let i = 0; i <  data.moves.length; i++) {
-                    This.moves.push(data.moves[i].move.name);
-                    This.movesURLs.push(data.moves[i].move.url);
-                    var p2 = getFile(This.movesURLs[i]);
+               
+                for (let i = 1; i < productFrames.length - 1; i++) {
+                    This.moves.push(data.moves[i-1].move.name);
+                    This.movesURLs.push(data.moves[i-1].move.url);
+                    var p2 = getFile(This.movesURLs[i-1]);
                     var moveInfo = yield p2;
                     movesInfoArray.push(['Accuracy: ' + moveInfo.accuracy, '<br>Power: ' + moveInfo.power, '<br>Priority: ' + moveInfo.priority]);
                     This.movesInfoArray = movesInfoArray;
-                }
-                for (let i = 1; i < productFrames.length - 1; i++) {
                     console.log(i);
                     var p3 = getFile('https://www.googleapis.com/customsearch/v1/?key=AIzaSyAk4E3PkcuqMPIKiTV3X7Ub7GDNLox-Qqc&cx=016836377050291397168%3Atqz5ktercmo&q=pokemon%20' + name + '%20' + This.moves[i-1]);
                     imgData.push(moveInfo = yield p3);
