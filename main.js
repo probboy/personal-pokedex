@@ -89,7 +89,7 @@ class POKEMON {
                 var abilities = document.createElement('p');
                 abilities.innerHTML = 'Abilities: ' + This.abilities;
                 var moves = document.createElement('p');
-                
+
                 moves.innerHTML = 'Moves: ' + This.moves;
                 var header = document.querySelector('.col');
                 header.appendChild(speed);
@@ -116,25 +116,25 @@ class POKEMON {
                 var moveInfo;
                 var productFrames = document.querySelectorAll('.col');
 
-               
-                for (let i = 1; i < productFrames.length - 1; i++) {
-                    This.moves.push(data.moves[i-1].move.name);
-                    This.movesURLs.push(data.moves[i-1].move.url);
 
-                    var p2 = getFile(This.movesURLs[i-1]);
+                for (let i = 1; i < productFrames.length - 1; i++) {
+                    This.moves.push(data.moves[i - 1].move.name);
+                    This.movesURLs.push(data.moves[i - 1].move.url);
+
+                    var p2 = getFile(This.movesURLs[i - 1]);
                     var moveInfo = yield p2;
 
                     movesInfoArray.push(['Accuracy: ' + moveInfo.accuracy, '<br>Power: ' + moveInfo.power, '<br>Priority: ' + moveInfo.priority]);
                     This.movesInfoArray = movesInfoArray;
 
-                    var p3 = getFile('https://www.googleapis.com/customsearch/v1/?key=AIzaSyAk4E3PkcuqMPIKiTV3X7Ub7GDNLox-Qqc&cx=016836377050291397168%3Atqz5ktercmo&q=pokemon%20' + name + '%20' + This.moves[i-1]);
+                    var p3 = getFile('https://www.googleapis.com/customsearch/v1/?key=AIzaSyAk4E3PkcuqMPIKiTV3X7Ub7GDNLox-Qqc&cx=016836377050291397168%3Atqz5ktercmo&q=pokemon%20' + name + '%20' + This.moves[i - 1]);
                     imgData.push(moveInfo = yield p3);
 
                     This.imgData = imgData;
                     productFrames[i].innerHTML = '';
 
                     var card = new CARD(This.imgData[i - 1].items[0].pagemap.cse_image[0].src == undefined ? This.imgData[0].items[0].pagemap.cse_image[0].src : This.imgData[i - 1].items[0].pagemap.cse_image[0].src, This.imgData[i - 1].items[0].pagemap.metatags[0].title == undefined ? This.imgData[0].items[0].pagemap.metatags[0].title : This.imgData[i - 1].items[0].pagemap.metatags[0].title, This.moves[i - 1], This.movesInfoArray[i - 1]);
-                    
+
                     card.appendCard(productFrames[i]);
                 }
             }).val(function () {
