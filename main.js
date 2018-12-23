@@ -85,7 +85,7 @@ class POKEMON {
                 var hp = document.createElement('p');
                 hp.innerHTML = 'HP: ' + This.hp
                 var abilities = document.createElement('p');
-                abilities.innerHTML = 'Abilities: ' + This.abilities;
+                abilities.innerHTML = 'Abilities: ' + This.abilities.join(", ");
                 var moves = document.createElement('p');
 
                 moves.innerHTML = 'Moves: ' + This.moves;
