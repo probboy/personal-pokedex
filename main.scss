@@ -4,22 +4,23 @@ body {
         .col:first-child{
             .introStat {
                 text-align: center;
-                font-family: 'Charm', cursive;
-                color: rgb(238, 45, 45);
+                font-family: 'Roboto', sans-serif;
+                color: grey;
                 font-weight: 700;
                 font-size: 1.5em;
             }
             #movesparagraph {
                 text-align: center;
-                font-family: 'Charm', cursive;
-                color: blue !important;
+                font-family: 'Roboto', sans-serif;
+                color: black;
                 font-weight: 700;
                 font-size: 1.5em;
-                margin-bottom: .5em
+                margin-bottom: .5em;
+                font-style: italic;
             }
         }
         background-image: url(http://static.comicvine.com/uploads/original/14/146951/3879604-6282234369-12556.jpg);
-        background-attachment: fixed !important;
+        background-attachment: fixed;
         background-origin: border-box;
         background-position: center;
         background-blend-mode: color-burn;
@@ -55,7 +56,7 @@ body {
         color: rgb(82, 82, 30);
         font-weight: bolder;
         font-size: 6em;
-        margin-bottom:-.3em;
+        margin-bottom:-.1em;
     }
     
     #productframe {

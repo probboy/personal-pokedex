@@ -103,7 +103,7 @@ class POKEMON {
 
                 var introParagraph = document.createElement('p');
 
-                introParagraph.innerHTML = 'Hello there, my name is Math-bong, welcome to my pokemon training pokécamp.'
+                introParagraph.innerHTML = 'Hello there, my name is Math-bong, welcome to my pokemon training Pokécamp.'
                 introParagraph.id = 'movesparagraph'
                 header.appendChild(introParagraph);
 
@@ -118,7 +118,6 @@ class POKEMON {
                 for (let i = 1; i < productFrames.length - 1; i++) {
                     This.moves.push(data.moves[i - 1].move.name);
                     This.movesURLs.push(data.moves[i - 1].move.url);
-
                     var p2 = getFile(This.movesURLs[i - 1]);
                     var moveInfo = yield p2;
 
