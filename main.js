@@ -56,8 +56,6 @@ class CARD {
 class POKEMON {
     constructor(name) {
         var This = this;
-        var imgFolder = [];
-        var productFrames = document.querySelectorAll('.col');
 
         ASQ()
             .runner(function* loadFiles() {
